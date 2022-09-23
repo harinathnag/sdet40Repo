@@ -2,13 +2,14 @@ package Practice;
 
 import org.testng.annotations.Test;
 
-public class AnnotationPriority {
+public class AnnotationPriorityTest {
 	
 	  @Test(priority = 1)
       public void openAccountTest()
       { 
     	  //print account generated
     	  System.out.println("account no is generated");
+    	  System.out.println();
       }
       @Test(priority = 2)
       public void debitCardTest()
